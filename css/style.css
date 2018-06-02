@@ -1,0 +1,194 @@
+html, body {
+	margin: 0;
+	background-image: url(../img/copy-of-summer-sky-web.jpg);
+	background-position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	background-color: rgba(193, 184, 198, 0.7);
+	margin-top: 70px;
+	text-align: center;
+	height: 80px;
+}
+
+header h1 {
+	font-family: Kavivanar, cursive;
+	font-size: 50px; 
+	margin: 0;
+	margin-left: 80px;
+
+}
+
+header h2 {
+	font-family: Kavivanar, cursive;
+	font-size: 100px; 
+	margin: 0;
+	text-align: center;
+}
+
+nav {
+	width: 200px;
+	background: radial-gradient(#48c6e2, transparent);
+	float: left;
+}
+
+ul {
+	font-family: Kavivanar, cursive;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+ul li {
+	text-align: center;
+}
+
+.navigation li:hover  {
+	background-color: pink;
+}
+
+	.slike a {
+	text-decoration: none;
+}
+
+.about h2 p {
+	font-family: Lucida Calligraphy;
+	align-content: center;
+}
+
+.slike {
+	max-height: 200px;
+	display: inline-block;
+	justify-content: center;
+}
+
+.slike img {
+	max-height: 300px;
+	justify-content: center;
+}
+
+
+.prvi {
+	float: left;
+	width: calc(100% - 80px);
+}
+
+.drugi {
+	float: right;
+	width: 80px;
+}
+
+.logo {
+	max-height: 80px;
+	float: right;
+	
+}
+
+.treci {
+	display: block;
+	text-align: center;
+}
+
+.treci img {
+	height: 400px;
+	margin-top: 30px;
+
+}
+
+.about {
+	margin-top: 20px;
+	font-family:  Source Sans Pro;
+	font-size: 20px; 
+}
+
+ul li a {
+	display: block;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.navigation li a {
+	text-decoration: none;
+}
+
+.navigation li a:hover {
+	color: #833aa3;
+}
+
+.latest {
+	position: relative;
+	left: 200px;
+	text-align: center;
+}
+
+
+.prvipasus p {     
+
+	font-family: Kavivanar, cursive;
+	font-size: 20px;
+	font-weight: bold; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  float: left;
+}
+
+.card {
+	color: black;
+	font-weight: bold;
+}
+
+.card h2 {
+	color: pink;
+	font-weight: bold;
+}
+
+
+.cardtwo {
+	font-family: Kavivanar, cursive;
+	color: white;
+	float: right;
+}
+
+
+.footer {
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  background: #ddd;
+  background-color: #c7b8e0;
+  height: 30;
+  color: #1e314f;
+}
+
+
+
+.logo1 {
+	margin: 0;
+	max-height: 80px;
+	
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
